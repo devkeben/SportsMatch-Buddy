@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "208757692048",
+    "firebase_url": "https://sportsmatch-buddy.firebaseio.com",
+    "project_id": "sportsmatch-buddy",
+    "storage_bucket": "sportsmatch-buddy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208757692048:android:1e340ca52ef207e9",
+        "android_client_info": {
+          "package_name": "com.example.kevin.capstoneproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "208757692048-allo8pmj0qa2ocgrj1tpm2eejdt14qfl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kevin.capstoneproject",
+            "certificate_hash": "82CD8E58FB4AF9029213179BB4C2E5EF9E980470"
+          }
+        },
+        {
+          "client_id": "208757692048-742nvhc10dv9l5p9dop167egol7gqh11.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlENUXBgMpimbrLtf7wroI_PxI7gFKiy0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "208757692048-742nvhc10dv9l5p9dop167egol7gqh11.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

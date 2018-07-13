@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kevin.capstoneproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/smblogo"
+        android:label="SportsMatch Buddy"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Login"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Register"
+            android:label="Register"
+            android:screenOrientation="portrait" />
+        <activity android:name=".SetupProfile" />
+        <activity
+            android:name=".MainActivity"
+            android:label="SportsMatch Buddy"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SearchPlayer"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Inbox"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FriendRequests"
+            android:screenOrientation="portrait" />
+        <activity android:name=".PasswordReset" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name=".Games"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Sports"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EditProfile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MySports"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".InviteDetails"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ProfileSearched"
+            android:screenOrientation="portrait" />
+        <activity android:name=".TabGames" />
+        <activity android:name=".InviteRequest" />
+        <activity android:name=".ProfileInvite" />
+        <activity android:name=".ProfileFriend"></activity>
+    </application>
+
+</manifest>
